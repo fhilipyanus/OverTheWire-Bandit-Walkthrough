@@ -1,8 +1,8 @@
 # Level 0 - Bandit
 
-Level Page: https://overthewire.org/wargames/bandit/bandit0.html
-Goal: Log into the game using SSH.
-What you'll learn: understand how to use the ssh command
+- Level Page: https://overthewire.org/wargames/bandit/bandit0.html
+- Goal: Log into the game using SSH.
+- What you'll learn: understand how to use the ssh command
 ---
 To connect to the bandit wargame server, or any other remote access task, we use the ssh command. Here is the syntax of the ssh command:
 ```
