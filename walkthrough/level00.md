@@ -1,4 +1,5 @@
 # Level 0 - Bandit
+
 Level Page: https://overthewire.org/wargames/bandit/bandit0.html
 Goal: Log into the game using SSH.
 What you'll learn: understand how to use the ssh command
@@ -19,6 +20,10 @@ ssh -p 2220 bandit0@bandit.labs.overthewire.org
 
 The server will then prompt you for a password. 
 ![server asking for password](/assets/level00img1.jpg)
+
+The level page tells us that the password is **bandit0**, so type that and send it to the server. However, the way OverTheWire levels are set up, is that they hide the password when you type it for confidentiality. You will not see what you type, but you did type it down. Once you type bandit0, press enter.
+
+Congrats! you are now in level 0.
 
 
 
