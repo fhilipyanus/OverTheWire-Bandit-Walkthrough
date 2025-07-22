@@ -1,6 +1,6 @@
 # OverTheWire Bandit Walkthrough
 OverTheWire: Bandit is a beginner-friendly wargame designed to teach foundational Linux command-line skills, basic cybersecurity concepts, and introductory hacking techniques through hands-on practice.
-This is a walkthrough of the bandit wargame by OverTheWire.
+This is a walkthrough of the bandit wargame by OverTheWire, containing explanations and solutions to every level in the walkthrough folder of this repository.
 
 To participate, you'll use SSH (Secure Shell), a protocol for securely connecting to remote systems. It encrypts all traffic, making it ideal for safely accessing the Bandit game server. You can use SSH from any OS, including Windows, macOS, or Linux.
 SSH will allow users to connect to the game server, which is a Linux environment, meaning users can use Linux commands without having a Linux system.
