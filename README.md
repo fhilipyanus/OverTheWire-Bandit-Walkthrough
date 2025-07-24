@@ -8,3 +8,6 @@ SSH will allow users to connect to the game server, which is a Linux environment
 I highly recommend for players to try and solve each level themselves before looking at the solution by searching the internet for definitions, tools, techniques, and getting a rough understanding of what the problem demands.
 
 To play this game, go to: https://overthewire.org/wargames/bandit/
+
+Here are the walkthroughs to get to each level:
+1. [Get to Level 0](/walkthrough/level00.md)
