@@ -18,14 +18,15 @@ It outputs nothing. Instead, it is asking for input. This is because of the way 
 
 To exit input mode, press the shortcut Ctrl+C.
 
-When we enter `cat -`, the command line this we want to enter a flags by design. However, we are not entering a flag in this situation. To reference a file with a hyphen (-) in the name, type `./` before it. The dot (.) references the current directory, and the slash (/) references a path inside the directory. So, all together would be `cat ./-`. We're saying to the command line, "read the file in our current directory with the name -."
+When we enter `cat -`, the command line thinks we are using the hyphen (-) to refer to standard input. It is a common convention for a hyphen (-) to refer to standard input. This makes things confusing, because that's not what we want to refer to. Instead, we want to refer to the file with the name "-". To solve this, we use `./` before the filename. The dot (.) refers to the current directory, and the slash (/) seperates paths in our command. So, all together would be `cat ./-`, this tells the system: “Look in the current directory for a file named - and display its contents.”
 
-You'll get an output that looks like this:
+Your command line will look something like this:
 ```
+bandit1@bandit:~$ cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 ```
 
-Congrats! You've gotten the password for level2. Just like previous levels, use ssh to login to level 2, then type and enter the password.
+Congrats! You've gotten the password for level2. Just like previous levels, exit the current connection, use ssh to login to level 2, then type and enter the password.
 
 ```
 ssh -p 2220 bandit2@bandit.labs.overthewire.org
