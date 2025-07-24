@@ -1,4 +1,4 @@
-# Level 0
+# Getting to level 0
 
 - Level Page: https://overthewire.org/wargames/bandit/bandit0.html
 - Goal: Log into the game using SSH.
