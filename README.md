@@ -11,3 +11,4 @@ To play this game, go to: https://overthewire.org/wargames/bandit/
 
 Here are the walkthroughs to get to each level:
 1. [Get to Level 0](/walkthrough/level00.md)
+2. [Level 0 -> 1](/walkthrough/level01.md)
