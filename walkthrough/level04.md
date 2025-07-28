@@ -43,7 +43,7 @@ bandit3@bandit:~/inhere$ cat ...Hiding-From-You
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
 
-However, what are `.` and `..` in the output before our filename? Those are entries to directories. They are technically required to make directories navigable. They aren’t regular files or folders; they’re shortcuts: `.` points to the current folder, and `..` points to the folder that contains this one. They are usually hidden, but since we used `ls --all`, which shows all files, the `.` and `..` files are also shown.
+However, what are `.` and `..` in the output of `ls -a` before our filename? Those are entries to directories. They are technically required to make directories navigable. They aren’t regular files or folders; they’re shortcuts: `.` points to the current folder, and `..` points to the folder that contains this one. They are usually hidden, but since we used `ls --all`, which shows all files, the `.` and `..` files are also shown.
 
 Congrats on getting the password for level 4! The **Key Takeaway** here is that the `ls` command alone doesn't show hidden files, and it needs the `--all` or `-a` flag to do so. Just like previous levels, exit the current connection, use ssh to login to level 4, then type and enter the password.
 
