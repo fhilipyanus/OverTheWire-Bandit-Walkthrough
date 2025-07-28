@@ -13,3 +13,4 @@ Here are the walkthroughs to get to each level:
 1. [Get to Level 0](/walkthrough/level00.md)
 2. [Level 0 -> 1](/walkthrough/level01.md)
 3. [Level 1 -> 2](/walkthrough/level02.md)
+4. [Level 2 -> 3](/walkthrough/level03.md)
