@@ -48,5 +48,5 @@ However, what are `.` and `..` in the output of `ls -a` before our filename? Tho
 Congrats on getting the password for level 4! The **Key Takeaway** here is that the `ls` command alone doesn't show hidden files, and it needs the `--all` or `-a` flag to do so. Just like previous levels, exit the current connection, use ssh to login to level 4, then type and enter the password.
 
 ```
-ssh -p 2220 bandit3@bandit.labs.overthewire.org
+ssh -p 2220 bandit4@bandit.labs.overthewire.org
 ```
