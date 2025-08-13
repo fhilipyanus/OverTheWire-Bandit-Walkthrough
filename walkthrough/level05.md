@@ -69,7 +69,7 @@ bandit4@bandit:~/inhere$ find . | xargs file
 ./-file04: data
 ./-file00: data
 ```
-`file` shows us the types of each file. Note: we used xargs because the `file` command expects the files to be written in one line. `xargs` does that for us. `xargs` is commonly used after pipelines as a reformatter for commands that demand specific formats. Note: `xargs` alone can sometimes cause problems. It works here because the filenames are simple, but in real-world cases with spaces or special characters, it's safer to use `find . -print0 | xargs -0 file` to avoid parsing issues.
+`file` shows us the types of each file. Note: we used xargs because the `file` command expects the files to be written in one line. `xargs` does that for us. `xargs` is commonly used after pipelines as a reformatter for commands that demand specific formats. Note: `xargs` alone can sometimes cause problems. It works here because the filenames are simple, but in real-world cases with spaces or special characters, it's safer to use `find . -print0 | xargs -0 file` to avoid parsing issues. `-print0` tells `find` to print file names separated by a null byte instead of a newline. `-0` tells xargs to expect null-terminated input instead of newline-terminated.
 
 Question for extra understanding: The file command labels file types heuristically. It’ll say ‘ASCII text’ if the file consists only of readable characters. This works for most human-readable content, but not all. What do you think would happen if the file were in UTF-8 or had special characters?
 
