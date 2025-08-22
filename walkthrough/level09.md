@@ -6,10 +6,10 @@
 ---
 
 Commands used in this level:
-- `uniq`: reports or filters out the repeated lines in a file or from standard input.
-- `sort`: arranges lines of text in a file or from standard input into a specified order.
+- `uniq`: filters out adjacent duplicate lines.
+- `sort`: groups identical lines together by arranging them in order.
 
-The uniq command by default removes duplicates. For example, say we have a file called `file.txt` that contains:
+The uniq command by default removes adjacent duplicate lines. For example, say we have a file called `file.txt` that contains:
 
 ```
 apple
@@ -54,7 +54,7 @@ apple
 lemon
 ```
 
-This is because the apples and oranges are not sorted together. So, the solution is to use the sort command and then pipeline the output to the uniq command. `sort file.txt` outputs:
+This is because the apples and oranges are not sorted together; they are not adjacent. `uniq -u` only checks whether a line is repeated immediately before or after, and not elsewhere in the file. That’s why sorting first is necessary. `sort file.txt` outputs:
 ```
 apple
 apple
@@ -67,15 +67,16 @@ If we give this standard input to the `uniq -u` command using a pipeline, `sort 
 ```
 lemon
 ```
-We can get the only unique line, even though the original file has it's lines shuffled and not grouped together.
+We get the only unique line, even though the original file has lines that are not grouped together.
 
 Let's leave this example, and return to our OverTheWire Level. Let's run `sort data.txt | uniq -u` and see what we get:
 ```
 bandit8@bandit:~$ sort data.txt | uniq -u
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```
+You’ll see a long string: that’s the password (yours may be different).
 
-Congratulations, you've gotten the password for level 9.Exit the current connection, and use ssh to login to the server.
+Congratulations, you've gotten the password for level 9. Exit the current connection, and use ssh to login to the server.
 ```
 ssh -p 2220 bandit9@bandit.labs.overthewire.org
 ```
