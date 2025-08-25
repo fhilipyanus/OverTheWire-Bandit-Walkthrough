@@ -8,7 +8,7 @@ Your command line is now in the home directory of bandit4. The level page tells 
 
 What is a human-readable file? A human-readable file is typically plain text: something you can open in a text editor and make sense of. A human-readable file might look something like: "afjbnawe289w." A non human-readable file might look something like: ֨,9KL��+ӑ�'��,�BtZ�@P0N��Q��.
 
-Now, let's check out the inehre directory to see what we're working with.
+Now, let's check out the inhere directory to see what we're working with.
 ```
 bandit4@bandit:~$ cd inhere
 bandit4@bandit:~/inhere$ ls
