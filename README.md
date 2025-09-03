@@ -20,3 +20,4 @@ Here are the walkthroughs to get to each level:
 - [Level 6 -> 7](/walkthrough/level07.md)
 - [Level 7 -> 8](/walkthrough/level08.md)
 - [Level 8 -> 9](/walkthrough/level09.md)
+- [Level 9 -> 10](/walkthrough/level10.md)
