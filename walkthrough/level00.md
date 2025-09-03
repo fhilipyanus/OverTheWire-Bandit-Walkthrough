@@ -23,6 +23,8 @@ The server will then prompt you for a password.
 
 The level page tells us that the password is **bandit0**, so type that and send it to the server. However, the way OverTheWire levels are set up, is that they hide the password when you type it for confidentiality. You will not see what you type, but you did type it down. Once you type bandit0, press enter.
 
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
+
 Congrats! you are now in level 0.
 
 

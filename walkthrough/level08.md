@@ -21,6 +21,8 @@ So, use the grep command as shown below, and you'll get an output that looks som
 bandit7@bandit:~$ grep "millionth" data.txt
 millionth       dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
+
 
 Congrats, you got the password for level 8! Use ssh to connect to the server.
 

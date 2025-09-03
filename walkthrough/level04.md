@@ -42,6 +42,7 @@ As you can see, there is a file named `...Hiding-From-You` in our current direct
 bandit3@bandit:~/inhere$ cat ...Hiding-From-You
 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 However, what are `.` and `..` in the output of `ls -a` before our filename? Those are entries to directories. They are technically required to make directories navigable. They aren’t regular files or folders; they’re shortcuts: `.` points to the current folder, and `..` points to the folder that contains this one. They are usually hidden, but since we used `ls --all`, which shows all files, the `.` and `..` files are also shown.
 

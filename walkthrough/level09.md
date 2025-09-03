@@ -74,7 +74,7 @@ Let's leave this example, and return to our OverTheWire Level. Let's run `sort d
 bandit8@bandit:~$ sort data.txt | uniq -u
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 ```
-You’ll see a long string: that’s the password (yours may be different).
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 Congratulations, you've gotten the password for level 9. Exit the current connection, and use ssh to login to the server.
 ```

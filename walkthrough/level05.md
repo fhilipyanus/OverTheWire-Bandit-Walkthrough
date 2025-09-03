@@ -85,6 +85,7 @@ Now, all that's left is to read the file (Remember, the file name `-file07` star
 bandit4@bandit:~/inhere$ cat ./-file07
 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 Congratulations on getting the password for level 5! Just like previous levels, exit the current connection, use ssh to login to level 5, then type and enter the password.
 

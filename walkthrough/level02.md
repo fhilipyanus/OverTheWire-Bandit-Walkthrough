@@ -25,6 +25,7 @@ Your command line will look something like this:
 bandit1@bandit:~$ cat ./-
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 Congrats! You've gotten the password for level2. Just like previous levels, exit the current connection, use ssh to login to level 2, then type and enter the password.
 

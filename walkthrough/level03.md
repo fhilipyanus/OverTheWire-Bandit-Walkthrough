@@ -29,6 +29,7 @@ Your command line will look something like this:
 bandit2@bandit:~$ cat "spaces in this filename"
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 The shell parses and splits arguments before the `cat` command even runs. Using quotes is how you prevent word splitting and group words into a single argument. Later you'll encounter filenames with other special characters like *, &, and #, and quotation marks will be your friends.
 

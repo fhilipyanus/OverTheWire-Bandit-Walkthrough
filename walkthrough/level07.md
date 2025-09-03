@@ -44,6 +44,7 @@ Nice, we've got the file. All that's left is to read it.
 bandit6@bandit:~$ cat /var/lib/dpkg/info/bandit7.password
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 Congratulations! You've gotten the password to enter level 7. Use ssh to connect to the server.
 

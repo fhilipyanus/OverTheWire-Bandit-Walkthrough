@@ -47,6 +47,7 @@ We've got our file, all we have to do now is read it.
 bandit5@bandit:~$ cat ./inhere/maybehere07/.file2
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 Congratulations! You've gotten the password to enter level 6. Use ssh to connect to the server.
 

@@ -30,5 +30,6 @@ After your command line is back in your local machine, use ssh to log in to band
 ```
 ssh -p 2220 bandit1@bandit.labs.overthewire.org
 ```
+Note: OverTheWire changes their passwords from time to time, so this password might not work for you depending on when you are using it.
 
 The server will prompt you for a password exactly like the last level, simply paste the password and press enter. Congrats, you've entered level 1!
